@@ -1,0 +1,45 @@
+html,
+body * {
+  font-family: "RaisonnePro", sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #14161a;
+  color: #fff;
+  cursor: none;
+}
+
+main {
+  height: 100vh;
+  @extend .flex-center;
+  section {
+    padding-right: 25.5em;
+    padding-left: 25.5em;
+    h1 {
+      font-size: 5.8em;
+      line-height: 1.25em;
+      letter-spacing: -0.02em;
+    }
+  }
+}
+
+.cursor {
+  pointer-events: none;
+  &__ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    z-index: 1000;
+
+    circle {
+      fill: #f7f8fa;
+    }
+  }
+}
