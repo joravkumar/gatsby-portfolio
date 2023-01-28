@@ -1,0 +1,22 @@
+.main {
+  padding: 4rem;
+  height: 600px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.main h2 {
+  font-size: 3rem;
+}
+
+.main a {
+  color: #f6ad55;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.main a:hover {
+  text-decoration: underline;
+}
